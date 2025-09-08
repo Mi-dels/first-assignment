@@ -35,11 +35,15 @@
 }
 h1 {
   color: hsl(0, 0%, 95%);
+  font-family: BigShoulders Display, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
 }
+
 p {
   color: hsla(0, 0%, 100%, 0.75);
-  font-family: lexend deca sans-serif;
-  font-weight: 50;
+  font-family: "lexend deca";
+  font-weight: 400;
   line-height: 30px;
   padding-top: 10px;
 }
@@ -51,6 +55,8 @@ button {
   margin-top: 80px;
   margin-bottom: 50px;
   border: 2px;
+  font-family: lexend deca, sans-serif;
+  font-weight: 400;
 }
 .first {
   color: hsl(31, 77%, 52%);
@@ -117,6 +123,5 @@ button {
   }
   p {
     margin-bottom: -50px;
-    line-height: ;
   }
 }

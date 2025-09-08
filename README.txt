@@ -1,26 +1,63 @@
-Lexend Deca Variable Font
-=========================
+Big Shoulders Variable Font
+===========================
 
-This download contains Lexend Deca as both a variable font and static fonts.
+This download contains Big Shoulders as both a variable font and static fonts.
 
-Lexend Deca is a variable font with this axis:
+Big Shoulders is a variable font with these axes:
+  opsz
   wght
 
 This means all the styles are contained in a single file:
-  LexendDeca-VariableFont_wght.ttf
+  BigShoulders-VariableFont_opsz,wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Lexend Deca:
-  static/LexendDeca-Thin.ttf
-  static/LexendDeca-ExtraLight.ttf
-  static/LexendDeca-Light.ttf
-  static/LexendDeca-Regular.ttf
-  static/LexendDeca-Medium.ttf
-  static/LexendDeca-SemiBold.ttf
-  static/LexendDeca-Bold.ttf
-  static/LexendDeca-ExtraBold.ttf
-  static/LexendDeca-Black.ttf
+in those cases you can use the static font files for Big Shoulders:
+  static/BigShoulders-Thin.ttf
+  static/BigShoulders-ExtraLight.ttf
+  static/BigShoulders-Light.ttf
+  static/BigShoulders-Regular.ttf
+  static/BigShoulders-Medium.ttf
+  static/BigShoulders-SemiBold.ttf
+  static/BigShoulders-Bold.ttf
+  static/BigShoulders-ExtraBold.ttf
+  static/BigShoulders-Black.ttf
+  static/BigShoulders_18pt-Thin.ttf
+  static/BigShoulders_18pt-ExtraLight.ttf
+  static/BigShoulders_18pt-Light.ttf
+  static/BigShoulders_18pt-Regular.ttf
+  static/BigShoulders_18pt-Medium.ttf
+  static/BigShoulders_18pt-SemiBold.ttf
+  static/BigShoulders_18pt-Bold.ttf
+  static/BigShoulders_18pt-ExtraBold.ttf
+  static/BigShoulders_18pt-Black.ttf
+  static/BigShoulders_24pt-Thin.ttf
+  static/BigShoulders_24pt-ExtraLight.ttf
+  static/BigShoulders_24pt-Light.ttf
+  static/BigShoulders_24pt-Regular.ttf
+  static/BigShoulders_24pt-Medium.ttf
+  static/BigShoulders_24pt-SemiBold.ttf
+  static/BigShoulders_24pt-Bold.ttf
+  static/BigShoulders_24pt-ExtraBold.ttf
+  static/BigShoulders_24pt-Black.ttf
+  static/BigShoulders_36pt-Thin.ttf
+  static/BigShoulders_36pt-ExtraLight.ttf
+  static/BigShoulders_36pt-Light.ttf
+  static/BigShoulders_36pt-Regular.ttf
+  static/BigShoulders_36pt-Medium.ttf
+  static/BigShoulders_36pt-SemiBold.ttf
+  static/BigShoulders_36pt-Bold.ttf
+  static/BigShoulders_36pt-ExtraBold.ttf
+  static/BigShoulders_36pt-Black.ttf
+  static/BigShoulders_60pt-Thin.ttf
+  static/BigShoulders_60pt-ExtraLight.ttf
+  static/BigShoulders_60pt-Light.ttf
+  static/BigShoulders_60pt-Regular.ttf
+  static/BigShoulders_60pt-Medium.ttf
+  static/BigShoulders_60pt-SemiBold.ttf
+  static/BigShoulders_60pt-Bold.ttf
+  static/BigShoulders_60pt-ExtraBold.ttf
+  static/BigShoulders_60pt-Black.ttf
 
 Get started
 -----------
