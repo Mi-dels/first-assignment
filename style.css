@@ -93,7 +93,7 @@ button {
   .parent {
     display: block;
     padding: 20px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
   }
   body {
     display: flex;
