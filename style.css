@@ -90,8 +90,16 @@ button {
 }
 
 @media screen and (max-width: 450px) {
+  body {
+    /* flex-wrap: wrap; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
   .parent {
-    width: 13%;
+    width: 15%;
     display: block;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -99,33 +107,28 @@ button {
     padding-top: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
-    flex-wrap: wrap;
-  }
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   .firstborn {
-    width: 100%;
+    width: 80%;
     height: auto;
+    margin-right: 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
   }
   .thirdborn {
-    width: 100%;
+    width: 80%;
     height: auto;
+    margin-right: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 0px;
   }
   .secondborn {
-    width: 100%;
+    width: 80%;
     height: auto;
+    margin-right: 20px;
   }
   p {
     margin-bottom: -50px;
