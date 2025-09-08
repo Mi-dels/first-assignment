@@ -89,7 +89,7 @@ button {
   cursor: pointer;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .parent {
     display: block;
     padding: 20px;
