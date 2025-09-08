@@ -1,0 +1,122 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.firstborn {
+  background-color: hsl(31, 77%, 52%);
+  width: 15%;
+  height: auto;
+  padding-left: 50px;
+  padding-right: 65px;
+  padding-top: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.secondborn {
+  background-color: hsl(184, 100%, 22%);
+  width: 15%;
+  height: auto;
+  padding-left: 50px;
+  padding-right: 65px;
+  padding-top: 50px;
+}
+.thirdborn {
+  background-color: hsl(179, 100%, 13%);
+  width: 15%;
+  height: auto;
+  padding-left: 50px;
+  padding-right: 65px;
+  padding-top: 50px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+h1 {
+  color: hsl(0, 0%, 95%);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: lexend deca sans-serif;
+  font-weight: 50;
+  line-height: 30px;
+  padding-top: 10px;
+}
+button {
+  background-color: hsl(0, 0%, 95%);
+  width: 130px;
+  height: 45px;
+  border-radius: 30px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  border: 2px;
+}
+.first {
+  color: hsl(31, 77%, 52%);
+}
+.second {
+  color: hsl(184, 100%, 22%);
+}
+.third {
+  color: hsl(179, 100%, 13%);
+}
+.first:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsla(0, 0%, 100%, 0.75);
+  border-style: solid;
+  border-color: hsla(0, 0%, 100%, 0.75);
+  cursor: pointer;
+}
+.second:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsla(0, 0%, 100%, 0.75);
+  border-style: solid;
+  border-color: hsla(0, 0%, 100%, 0.75);
+  cursor: pointer;
+}
+.third:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsla(0, 0%, 100%, 0.75);
+  border-style: solid;
+  border-color: hsla(0, 0%, 100%, 0.75);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  .parent {
+    display: block;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .firstborn {
+    width: 90%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+  .thirdborn {
+    width: 90%;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0px;
+  }
+  .secondborn {
+    width: 90%;
+    height: auto;
+  }
+  p {
+    margin-bottom: -50px;
+    line-height: ;
+  }
+}
