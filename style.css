@@ -1,3 +1,6 @@
+body {
+  height: 100%;
+}
 .parent {
   display: flex;
   justify-content: center;
@@ -92,18 +95,18 @@ button {
 @media screen and (max-width: 450px) {
   body {
     /* flex-wrap: wrap; */
-    display: block;
-    height: 100vh;
-    align-items: center;
+    /* display: block; */
+
+    /* width: 100vw; */
   }
   .parent {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
-    padding-left: 30px;
+    height: 100%;
+    align-items: center;
+    padding-left: 40px;
     padding-bottom: 30px;
-    padding-right: 30px;
+    padding-right: 40px;
     padding-top: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -111,27 +114,30 @@ button {
   }
   .firstborn {
     width: 80%;
-    height: auto;
-    margin-right: 20px;
-    margin-left: 20px;
+    /* height: auto; */
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    margin-right: 30px;
+    margin-left: 30px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
   }
   .thirdborn {
     width: 80%;
-    height: auto;
-    margin-right: 20px;
-    margin-left: 20px;
+    /* height: auto; */
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 0px;
   }
   .secondborn {
     width: 80%;
-    height: auto;
-    margin-right: 20px;
-    margin-left: 20px;
+    /* height: auto; */
+    margin-right: 30px;
+    margin-left: 30px;
   }
   p {
     margin-bottom: -50px;
