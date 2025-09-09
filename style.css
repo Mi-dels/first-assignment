@@ -145,4 +145,7 @@ button {
   button {
     font-weight: bold;
   }
+  h1 {
+    padding-top: 10px;
+  }
 }
