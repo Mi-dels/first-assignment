@@ -95,7 +95,7 @@ button {
 @media screen and (max-width: 450px) {
   body {
     /* flex-wrap: wrap; */
-    /* display: block; */
+    display: block;
 
     /* width: 100vw; */
   }
