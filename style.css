@@ -142,4 +142,7 @@ button {
   p {
     margin-bottom: -50px;
   }
+  button {
+    font-weight: bold;
+  }
 }
