@@ -113,7 +113,7 @@ button {
     /* flex-wrap: wrap; */
   }
   .firstborn {
-    width: 80%;
+    width: 70%;
     /* height: auto; */
     margin-top: 30px;
     /* margin-bottom: 30px; */
@@ -124,7 +124,7 @@ button {
     border-bottom-left-radius: 0px;
   }
   .thirdborn {
-    width: 80%;
+    width: 70%;
     /* height: auto; */
     margin-bottom: 30px;
     margin-right: 30px;
@@ -134,7 +134,7 @@ button {
     border-top-right-radius: 0px;
   }
   .secondborn {
-    width: 80%;
+    width: 70%;
     /* height: auto; */
     margin-right: 30px;
     margin-left: 30px;
