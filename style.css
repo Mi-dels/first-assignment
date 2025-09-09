@@ -92,18 +92,19 @@ button {
 @media screen and (max-width: 450px) {
   body {
     /* flex-wrap: wrap; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
     height: 100vh;
     align-items: center;
   }
   .parent {
-    display: block;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
     /* flex-wrap: wrap; */
@@ -112,6 +113,7 @@ button {
     width: 80%;
     height: auto;
     margin-right: 20px;
+    margin-left: 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
@@ -120,6 +122,7 @@ button {
     width: 80%;
     height: auto;
     margin-right: 20px;
+    margin-left: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 0px;
@@ -128,6 +131,7 @@ button {
     width: 80%;
     height: auto;
     margin-right: 20px;
+    margin-left: 20px;
   }
   p {
     margin-bottom: -50px;
